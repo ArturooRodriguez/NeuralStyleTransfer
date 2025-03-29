@@ -1,4 +1,4 @@
-# Neural Style Transfer:
+# Neural Style Transfer
 "In fine art, especially painting, humans have mastered the skill to create unique visual experiences through composing a complex interplay between the content and style of an image". Da questo concetto è stato sviluppato un sistema artificiale, basato su Deep Neural Network, in grado di simulare in qualche modo il gesto artistico di un umano e di creare immagini originali di alta qualità. Ciò viene implementato tramite l'utilizzo di due immagini di input, unite tra loro, una da cui viene estrapolato il contenuto e una da cui viene estrapolato lo stile.
 
 Il task in questione prende il nome di *Neural Style Transfer*, inventato nel 2015 da Leon Gatys con la pubblicazione [A Neural Algorithm of Artitstic Style](https://arxiv.org/pdf/1508.06576.pdf). L'idea che sta alla base è quella di utilizzare delle reti convoluzionali pre-addestrate per estrarre le caratteristiche stilistiche di un'immagine (immagine di stile) e applicarle ad un'altra (immagine di contenuto).
